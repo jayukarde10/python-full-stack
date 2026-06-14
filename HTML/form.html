@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>form</h1>
+    <form action="/submit" method="post">
+        <label for="name" >Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+        <label for="sex">Sex:</label>
+        <select id="sex" name="sex" required>
+            <option value="">Select</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select><br><br>
+
+        <label for="sex">Sex:</label>
+        <input type="radio" id="male" name="sex" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="sex" value="female" required>
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="sex" value="other" required>
+        <label for="other">Other</label>
+        <br><br>
+
+        <label for="feedback">Feedback:</label><br>
+        <textarea id="feedback" name="feedback" rows="4" cols="50">write your feedback here...</textarea><br><br>
+        <input type="submit" value="Submit">    
+
+
+
+        id=Used to uniquely identify an element on the page.
+        name=Used when sending form data to the server. ex name="name" if user write jay in name input field then it will send name=jay to the server.
+        value=Stores the value associated with the input ex <input type="text" name="username" value="defaultUser"> if user does not change the value then it will send username=defaultUser to the server.
+    </form>
+</body>
+</html>
