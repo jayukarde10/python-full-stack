@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: auto;
+}
+form{
+
+    border: 1px solid black;
+}
+input{
+    
+    color: black;
+    border: 1px solid black;
+}
+#submit{
+    background-color: aqua;
+}
+.submitc{
+    text-align: center;
+}

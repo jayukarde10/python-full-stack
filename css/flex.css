@@ -1,0 +1,21 @@
+img{
+    border: 1px solid black;
+    height: 300px;
+    width: 300px;
+}
+.container{
+    
+    display: flex;
+    /* flex-direction: column;  */
+    /* justify-content:center ; */
+    justify-content: space-around;
+    height: 600px;
+    align-items: center;
+}
+
+/* display:flex;
+flex-direction;
+justify-content;
+align-items;
+flex-wrap;
+gap; */
